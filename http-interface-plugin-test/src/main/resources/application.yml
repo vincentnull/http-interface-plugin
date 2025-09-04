@@ -1,0 +1,13 @@
+http:
+  host: https://m1.apifoxmock.com
+
+#web-client:
+#  maxConnections: 200 # 最大连接数
+#  pendingAcquireMaxCount: 10000 # 获取线程等待队列最大长度
+#  pendingAcquireTimeout: 30 # 获取线程等待超时时间(秒)
+#  connectTimeout: 2000 # tcp连接建立超时时间
+#  readTimeout: 3500 # http读取超时时间
+#  writeTimeout: 3500 # http写入超时时间
+#  responseTimeout: 3500 # 响应超时时间
+#  maxIdleTime: 30 # 连接空闲回收时间(秒)
+#  maxLifeTime: 120 # 连接寿命回收时间(秒)
