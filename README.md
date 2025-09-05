@@ -10,7 +10,9 @@ Spring Cloud 2022 **官方宣布OpenFeign进入维护期**，并建议Spring Int
 </dependency>
 ```
 2、在启动类上添加@EnableHttpClients注解
+```java
 @EnableHttpClients
+```
 3、创建http client接口
 ```java
 @HttpExchange("{http.host}/m1/6197711-5890682-default")
@@ -36,7 +38,7 @@ public interface ApiFoxMockHttpClient {
 http:
   host: https://m1.apifoxmock.com
 ```
-5、注入client接口
+4、注入client接口
 ```java
 @SpringBootTest
 class ApiFoxMockHttpClientTest {
@@ -52,7 +54,7 @@ class ApiFoxMockHttpClientTest {
     }
 }
 ```
-6、自定义配置webclient
+5、自定义配置webclient
 如果有自定义配置web client的需求,如传递请求头信息（traceId）、拦截器、统一异常处理等
 可参考项目中[http-interface-plugin-test]模块com.vincentnull.http.config.HttpClientConfig进行配置
 
