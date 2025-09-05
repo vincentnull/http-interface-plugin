@@ -1,5 +1,12 @@
 # 项目背景
 Spring Cloud 2022 **官方宣布OpenFeign进入维护期**，并建议Spring Interface 进行替代。而Spring Interface 目前直接使用还有许多不方便的地方，所以我参考openfeign源码编写了此插件有助于大大的提高Spring Interface的开发效率，使得你可以像使用openFeign一样使用Spring Interface
+# Spring HTTP Interface 使用版本要求
+
+| 项目                | 最低版本要求                     |
+|--------------------|--------------------------------|
+| Spring Framework   | 6.0.0                          |
+| Spring Boot        | 3.0.0                          |
+| Java (JDK)         | 17 及以上       |
 # 简单入门
 1、添加依赖
 ```xml
