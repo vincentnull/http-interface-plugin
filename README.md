@@ -21,6 +21,8 @@ Spring Cloud 2022 **官方宣布OpenFeign进入维护期**，并建议Spring Int
 @EnableHttpClients
 ```
 3、创建http client接口
+
+java代码
 ```java
 @HttpExchange("{http.host}/m1/6197711-5890682-default")
 public interface ApiFoxMockHttpClient {
@@ -41,6 +43,7 @@ public interface ApiFoxMockHttpClient {
     Mono<String> sendMock2();
 }
 ```
+yml配置
 ```yaml
 http:
   host: https://m1.apifoxmock.com
