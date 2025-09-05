@@ -56,6 +56,10 @@ class ApiFoxMockHttpClientTest {
 如果有自定义配置web client的需求,如传递请求头信息（traceId）、拦截器、统一异常处理等
 可参考项目中[http-interface-plugin-test]模块com.vincentnull.http.config.HttpClientConfig进行配置
 
+
+* 如果对您有帮助，请给个star支持一下，欢迎提issue或PR参与贡献
+
 # 附件：
 openfeign 官方文档：https://github.com/spring-cloud/spring-cloud-openfeign
+
 spring interface 官方文档：https://docs.spring.io/spring-framework/reference/integration/rest-clients.html#rest-http-interface
